@@ -1,0 +1,61 @@
+.container {
+    background: aquamarine;
+    
+}
+
+.row {
+    border: 2px solid red;
+    
+}
+
+img {
+    width: 100%;
+}
+
+#titulo {
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.primera_seccion{
+    text-align: justify;
+    padding: 5%;
+    font-size: 20px;   
+}
+
+.ul {
+    list-style:none;
+}
+
+@media (min-width: 200px) and (max-width: 424px) {
+    [class*="col-"] {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gatito{
+        content: url("../nombres-para-gatos.jpg");
+    }
+
+    body {
+        background: rgba(223, 208, 75, 0.63);
+    }
+
+    #titulo {
+        font-family: 'Pacifico', cursive;    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    [class*="col-"]{
+        width: 100%;
+        text-align: center;
+    }
+
+    .gatito {
+        content: url(../1-18.jpg);
+    }
+
+    #titulo {
+        font-family: 'Lobster', cursive;
+    }
+}
